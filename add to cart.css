@@ -57,7 +57,7 @@ ul li {
 }
 
 
-.product-container {
+..product-container {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -65,12 +65,17 @@ ul li {
 
 .product-row {
   display: flex;
-  justify-content: space-around;
   align-items: center;
   padding: 20px;
   border-bottom: 1px solid #ccc;
   box-sizing: border-box;
   width: 100%;
+  gap: 20px;
+}
+
+.product-image {
+  width: 120px;
+  flex-shrink: 0;
 }
 
 .product-image img {
@@ -79,19 +84,16 @@ ul li {
   border-radius: 8px;
 }
 
-.product-info {
+.product-info,.quantity-control,.stock,.cart-button {
+  flex: 1;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
 }
 
-.product-info h4 {
-  margin: 0 0 5px 0;
-}
-
 .quantity-control {
-  display: flex;
-  align-items: center;
+  flex-direction: row;
   gap: 10px;
 }
 
@@ -101,32 +103,20 @@ ul li {
   padding: 5px;
 }
 
-
-.plus, .minus {
-  font-weight: bold;
-  cursor: pointer;
-  font-size: 20px;
-}
-
 .stock {
   color: green;
   font-size: 18px;
-  display: flex;
-  align-items: center;
+  flex-direction: row;
   gap: 5px;
 }
 
 .cart-button {
-  display: flex;
-  align-items: center;
+  flex-direction: row;
   gap: 5px;
   cursor: pointer;
   font-weight: bold;
+  justify-content: flex-start;
 }
-.cart-button:hover {
-   		background-color: #90EE90;
-}
-
 .payment-methods {
   background-color: white;
   text-align: center;
