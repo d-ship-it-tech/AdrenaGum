@@ -1,0 +1,119 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="handheldfriendly" content="true">
+  <meta name="mobileoptimized" content="240">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add to Cart</title>
+</head>
+<body>
+  <nav>
+    <img src="https://i.postimg.cc/BQ9K10XD/Chat-GPT-Image-Apr-21-2025-07-27-32-preview.png" class="logo">
+    <ul class="navigationbar">
+      <li><a href="https://codepen.io/Divisha-Agrawal/full/LEEYBLX">Home</a></li>
+      <li><a href=" https://codepen.io/Yangmin-Lin/full/RNNLweM">About Us</a></li>
+      <li><a href="https://codepen.io/Yangmin-Lin/full/JoojBRB">Products</a></li>
+      <li><a href="https://codepen.io/Divisha-Agrawal/full/azzyYvv">Testimonials/FAQ</a></li>
+      <li><a href="#" class="highlighted">Add to Cart</a></li>
+    </ul>
+  </nav>
+
+  <h1>Add to Cart</h1>
+
+  <div class="product-container">
+
+    <div class="product-row">
+      <div class="product-image">
+        <img src="https://i.postimg.cc/rFb32xzM/frenzy.jpg" alt="Raspberry Burst">
+      </div>
+      <div class="product-info">
+        <h4>Product Name: Raspberry Burst</h4>
+        <p>Price: $9</p>
+        <p>Item number: 8383283</p>
+      </div>
+      <div class="quantity-control">
+        <span class="plus">+</span>
+        <input type="number" value="1">
+        <span class="minus">−</span>
+      </div>
+      <div class="stock">✔ <span>In Stock</span></div>
+      <div class="cart-button"><span>Add to Cart</span> 🛒</div>
+    </div>
+
+    <div class="product-row">
+      <div class="product-image">
+        <img src="https://i.postimg.cc/fRHY3fn0/green.webp" alt="Fresh herbs">
+      </div>
+      <div class="product-info">
+        <h4>Product Name: Fresh herbs</h4>
+        <p>Price: $10</p>
+        <p>Item number: 8293829</p>
+      </div>
+      <div class="quantity-control">
+        <span class="plus">+</span>
+        <input type="number" value="1">
+        <span class="minus">−</span>
+      </div>
+      <div class="stock">✔ <span>In Stock</span></div>
+      <div class="cart-button"><span>Add to Cart</span> 🛒</div>
+    </div>
+
+    <div class="product-row">
+      <div class="product-image">
+        <img src="https://i.postimg.cc/tCngddxx/sugar-free-gum.avif" alt="Sugar-free Gum">
+      </div>
+      <div class="product-info">
+        <h4>Product Name: Sugar-free Gum</h4>
+        <p>Price: $30</p>
+        <p>Item number: 8383283</p>
+      </div>
+      <div class="quantity-control">
+        <span class="plus">+</span>
+        <input type="number" value="1">
+        <span class="minus">−</span>
+      </div>
+      <div class="stock">✔ <span>In Stock</span></div>
+      <div class="cart-button"><span>Add to Cart</span> 🛒</div>
+    </div>
+    
+
+    <div class="product-row">
+      <div class="product-image">
+        <img src="https://i.postimg.cc/W16qrmB7/bubblegum.webp" alt="Bubble Frenzy">
+      </div>
+      <div class="product-info">
+        <h4>Product Name: Bubble Frenzy (natural)</h4>
+        <p>Price: $20</p>
+        <p>Item number: 8293829</p>
+      </div>
+      <div class="quantity-control">
+        <span class="plus">+</span>
+        <input type="number" value="1">
+        <span class="minus">−</span>
+      </div>
+      <div class="stock">✔ <span>In Stock</span></div>
+      <div class="cart-button"><span>Add to Cart</span> 🛒</div>
+    </div>
+<div class="payment-container">
+  <h2>We accept these payment methods:</h2>
+  <div class="payment-methods">
+        <img src=https://i.postimg.cc/MT8TWxYP/payment-methods-removebg-preview.png />
+             </div>
+   <div class="shopping-cart">
+        <img src=https://i.postimg.cc/NjmVTctv/shopping-cart.png />
+             </div>
+  <footer>
+      <nav class="footer-nav">
+        <ul>   
+    <li><a href="https://codepen.io/Divisha-Agrawal/full/LEEYBLX">Home</a></li>
+    <li><a href="https://codepen.io/Yangmin-Lin/full/JoojBRB" >About Us </a></li>
+    <li><a href="https://codepen.io/Yangmin-Lin/full/JoojBRB">Products</a></li>
+    <li><a href="https://codepen.io/Divisha-Agrawal/full/azzyYvv">Testimonials/FAQ  </a></li>
+       <li><a href="#"class="highlighted">Add to Cart </a></li>
+        </ul>
+        </li>
+      </nav>
+    </footer> 
+    </div>
+  </body>    
+  </section>
+</html>
