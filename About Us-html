@@ -1,0 +1,92 @@
+<HTML>
+  <head>
+ <meta charset="UTF-8">
+<meta name="handheldfriendly" content="true">
+  	<meta name="mobileoptimized" content="240">
+  	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+  <body>
+    <nav>
+<img src="https://i.postimg.cc/BQ9K10XD/Chat-GPT-Image-Apr-21-2025-07-27-32-preview.png" class="logo">
+  <ul "navigationbar">
+    <li><a href="https://codepen.io/Yangmin-Lin/full/EaaKLeo">Home</a></li>
+ <li><a href="#" class="highlighted">About Us</a></li>
+    <li><a href="https://codepen.io/Yangmin-Lin/full/JoojBRB">Products</a></li>
+  <li><a href="https://codepen.io/Divisha-Agrawal/full/azzyYvv">Testimonials/FAQ</a></li>
+    <li><a href="https://codepen.io/Divisha-Agrawal/full/qEEPBvX">Add to Cart</a></li>
+  </ul>
+</nav>
+<div class="top">
+    <h1 class="title">Chew & Relax</h1>
+  <div class="hero-image">
+    <img src="https://i.postimg.cc/GmRpwwR4/Screenshot-2025-04-28-at-13-49-17-removebg-preview.png" />
+  </div>
+    </div>
+    
+      
+<div class="bg">
+  <div class="leftside">
+<img id="myImage" src="https://i.postimg.cc/76FLnbXt/Screenshot-2025-04-28-at-19-21-24-removebg-preview.png" width="350" height="350">
+
+<button onclick="document.getElementById('myImage').src='https://i.postimg.cc/4xqR9pmt/Screenshot-2025-04-28-at-19-20-35-removebg-preview.png'" width="400" height="300">With AdrenaGum</button>
+  
+<button onclick="document.getElementById('myImage').src='https://i.postimg.cc/76FLnbXt/Screenshot-2025-04-28-at-19-21-24-removebg-preview.png'" width="350" height="350">Without AdrenaGum</button>
+  </div>
+    <p class="bginfo">At Adrena Gum, we’re redefining what it means to stay balanced in a fast-paced world. While our name evokes energy and adrenaline, our mission is to bring calm, clarity, and control when life gets overwhelming. Each piece of Adrena Gum is infused with soothing, natural ingredients like L-theanine and calming herbs to help ease stress and sharpen focus—without drowsiness or delay. Whether you're facing a high-stakes meeting, a crowded commute, or just need a moment to reset, Adrena Gum helps you stay centered, alert, and in control. Calm doesn’t have to mean slowing down—it just means moving forward with purpose.</p>
+</div>
+  
+
+<img class="our-story" src="https://i.postimg.cc/prh4CTsB/Adrena-Gum-was-born-from-a-simple-idea-what-if-stress-relief-could-fit-in-your-pocket-Frustrated-by-t.png">   
+   
+    
+    <div class="top">
+      <div class="text">
+    <h1 class="title">Contect & Help</h1>
+      <p class="tagline">We love to help!</p>
+        </div>
+  <div class="contact-img">
+    <img src="https://i.postimg.cc/DZZLtbk1/Screenshot-2025-04-30-at-20-16-55-removebg-preview.png"/>
+  </div>
+    </div>
+    <form>
+ <div class="contact">
+<label for="name" class="required">Name</label>
+<div class="name">
+<div>
+<input type="text" id= "name" placeholder="First Name" required>
+</div>
+
+<div>
+<input type="text" id="name" placeholder="Last Name" required>
+</div>
+</div>
+        
+<label for="phone" class="required">Phone</label>
+<input type="tel" id="phone" placeholder="Your Phone Number" required>
+        
+<label class="required" for="email">Email</label>
+<input type="text" id="email" placeholder="Your Email" required>
+
+
+<label for="message" class="required">Message</label>
+<textarea id="message" required></textarea>
+        </div>
+   
+    <div class=sumbit-button>
+<button class="submit">Submit</button>
+  </div>
+    </form>
+      
+   <div>
+      <nav class="footer-nav">
+        <ul>
+  <ul "navigationbar">
+    <li><a href="https://codepen.io/Yangmin-Lin/full/EaaKLeo">Home</a></li>
+ <li><a href="#" class="highlighted">About Us</a></li>
+    <li><a href="https://codepen.io/Yangmin-Lin/full/JoojBRB">Products</a></li>
+  <li><a href="https://codepen.io/Divisha-Agrawal/full/azzyYvv">Testimonials/FAQ</a></li>
+    <li><a href="https://codepen.io/Divisha-Agrawal/full/qEEPBvX">Add to Cart</a></li>
+  </ul>
+</nav>
+    </footer> 
+    </div>
