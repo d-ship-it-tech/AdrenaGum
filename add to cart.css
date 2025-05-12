@@ -1,0 +1,147 @@
+body {
+  font-family: "Times New Roman", serif;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+h1 {
+  text-align: center;
+}
+nav {
+  	display: flex;
+  	flex-wrap: wrap;
+    background-color: #47C443;
+  	align-items: center;
+  	background-color: #47C443;
+  	justify-content: space-between;
+  	overflow: auto;
+  	padding: 14px 16px;
+    background-color: #47C443;
+}
+
+ul li {
+  			position: relative;
+  			margin: 15px 20px;
+  			list-style: none;
+  			display: inline-block;
+  			padding: 5px;
+  			font-size: 20px;
+  			font-family: Times New Roman;
+        color: white;
+}
+  ul li a {
+    text-decoration: none; 
+    cursor: pointer;
+    color: white;
+  }
+ ul li a:hover {
+   		background-color: rgb(129, 123, 123);
+}
+.highlighted {
+  text-decoration: none; 
+  cursor: pointer;
+  color: black;
+  position: relative;
+  margin: 15px 20px;
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+  font-size: 20px;
+  font-family: Times New Roman;
+}
+.logo {
+  			width: 300px;
+  			height: 200px;
+  			style: margin-left 40px;
+}
+
+
+.product-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.product-image img {
+  width: 100px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-info h4 {
+  margin: 0 0 5px 0;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-control input {
+  width: 40px;
+  text-align: center;
+  padding: 5px;
+}
+
+
+.plus, .minus {
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.stock {
+  color: green;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.cart-button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.cart-button:hover {
+   		background-color: #90EE90;
+}
+
+.payment-methods {
+  background-color: white;
+  text-align: center;
+}
+h2 {
+  size: 
+}
+.shopping-cart img {
+  width: 100vw;         
+  aspect-ratio: 50 / 14;  
+  height: auto; 
+  display: block; 
+}
+footer {
+  background-color: #008000;
+  text-align: center;
+  box-shadow: 0 -4px 0 rgba(0, 0, 0, 0.2); 
+}
