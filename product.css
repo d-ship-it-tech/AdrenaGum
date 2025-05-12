@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+nav {
+      display: flex;
+      flex-wrap: wrap;
+    background-color: #47C443;
+      align-items: center;
+      background-color: #47C443;
+      justify-content: space-between;
+      overflow: auto;
+      padding: 14px 16px;
+    background-color: #47C443;
+}
+ul li {
+              position: relative;
+              margin: 15px 20px;
+              list-style: none;
+              display: inline-block;
+              padding: 5px;
+              font-size: 20px;
+              font-family: Times New Roman;
+        color: white;
+}
+  ul li a {
+  text-decoration: none; 
+  cursor: pointer;
+  color: white;
+  }
+
+.highlighted {
+  text-decoration: none; 
+  cursor: pointer;
+  color: black;
+  position: relative;
+  margin: 15px 20px;
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+  font-size: 20px;
+  font-family: Times New Roman;
+}
+  ul li a:hover {
+           background-color: rgb(129, 123, 123);
+}
+.logo {
+              width: 300px;
+              height: 200px;
+              style: margin-left 40px;
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  color: darkgreen; 
+  padding: 60px 80px;
+  height: 60vh;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 30px 0;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #4cc14c;
+}
+.product-section {
+  padding: 2rem;
+  text-align: center;
+}
+.title {
+  font-size: 4rem;
+  color: darkgreen;
+  margin-bottom: 3rem;
+}
+.title2 {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 3rem;
+}
+.product-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.product-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1px;
+}
+.product-title {
+  font-size: 0.95rem;
+  margin: 0 0 1rem 0;
+  text-align: center;
+  color: darkgreen;
+}
+.link:hover {
+  background-color: darkgreen;
+}
+.ad {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: darkgreen;
+  padding: 60px 80px;
+  height: 60vh;
+  width: 100%;
+  box-sizing: border-box;
+}
+.hero-text {
+  color: white;
+  max-width: 600px;
+}
+.tagline {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: white;
+}
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 30px 0;
+}
+.btn1 {
+  background-color: white;
+  color: darkgreen;
+  border: none;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.hero-image img {
+ width: 420px;
+height: 340px;
+}
+.btn1:hover {
+  background-color: lightgreen;
+}
+.buy {
+ background-color: #1f4d1f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.see {
+ background-color: #1f4d1f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.buy:hover {
+  background-color: green;
+}
+.see:hover {
+  background-color: green;
+}
