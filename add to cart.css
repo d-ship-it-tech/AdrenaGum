@@ -65,12 +65,14 @@ ul li {
 
 .product-row {
   display: flex;
-  align-items: center;
+  justify-content: center;  
+  align-items: center;  
   padding: 20px;
   border-bottom: 1px solid #ccc;
   box-sizing: border-box;
   width: 100%;
-  gap: 20px;
+  gap: 30px; 
+  text-align: center; 
 }
 
 .product-image {
