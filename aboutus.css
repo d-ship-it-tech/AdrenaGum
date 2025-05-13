@@ -84,12 +84,14 @@ body {
   width: 100%;
   box-sizing: border-box;
 }
+
 .bginfo {
   font-size: 23px;
   color: white;
   margin: 30px;
   line-height: 35px;
 }
+
 h1 {
   font-size: 64px;
   font-weight: 700;
