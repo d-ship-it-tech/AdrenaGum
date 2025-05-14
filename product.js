@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.buy').forEach(button => {
     button.addEventListener('click', function() {
-      window.location.href = 'add to cart.html';
+      window.location.href = 'add-to-cart.html';
     });
   });
 });
